@@ -1,0 +1,21 @@
+{
+  "name": "learn-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacLean/learn-electron.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/IsaacLean/learn-electron/issues"
+  },
+  "homepage": "https://github.com/IsaacLean/learn-electron#readme",
+  "devDependencies": {
+    "electron": "^3.0.5"
+  }
+}
