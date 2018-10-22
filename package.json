@@ -1,21 +1,28 @@
 {
   "name": "learn-electron",
+  "productName": "Learn Electron",
   "version": "1.0.0",
-  "description": "",
+  "description": "A test Electron app",
   "main": "index.js",
   "scripts": {
-    "start": "electron index.js"
+    "start": "electron index.js",
+    "pack": "electron-builder"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IsaacLean/learn-electron.git"
   },
-  "author": "",
+  "author": "Matthew Lean",
   "bugs": {
     "url": "https://github.com/IsaacLean/learn-electron/issues"
   },
   "homepage": "https://github.com/IsaacLean/learn-electron#readme",
+  "build": {
+    "appId": "com.Lean.LearnElectron"
+  },
   "devDependencies": {
-    "electron": "^3.0.5"
+    "devtron": "^1.4.0",
+    "electron": "^3.0.5",
+    "electron-builder": "^20.28.4"
   }
 }
